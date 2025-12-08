@@ -55,6 +55,7 @@ All data and pretrained weights are automatically fetched from Hugging Face.
 
 Cityscapes (19-class semantic segmentation), hosted on Hugging Face:
 👉 https://huggingface.co/datasets/tanganke/cityscapes
+Covers 19 semantic classes(road, sidewalk, building, vegetation, car, bus, pedestrian, etc.)
 
 The dataset is automatically downloaded using the datasets library:
 ```bash
@@ -66,11 +67,9 @@ ds = load_dataset("tanganke/cityscapes")
 
 SegFormer-B0 (from Hugging Face Transformers)
 
-The model architecture and training configuration are defined in model.py, including:
+The model architecture and training configuration are defined in Final_Project.ipynb, including:
 
-SegFormer encoder–decoder initialization
-
-Covers 19 semantic classes(road, sidewalk, building, vegetation, car, bus, pedestrian, etc.)
+SegFormer encoder–decoder initialization, loss smoothing model
 
 
 
