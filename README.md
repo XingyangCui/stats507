@@ -46,14 +46,17 @@ street-view **semantic segmentation** performance::
 
 ## 4. Data & Model
 
+4. Data & Model
+
 No manual download is required.
-The scripts automatically fetch everything from Hugging Face:
+All data and pretrained weights are automatically fetched from Hugging Face.
 
-* Model: Salesforce/blip-image-captioning-base
+* Dataset:
 
-* Dataset: Oxford-IIIT Pet (via Hugging Face Datasets mirror)
+Cityscapes (19-class semantic segmentation), hosted on Hugging Face:
+👉 https://huggingface.co/datasets/tanganke/cityscapes
 
-Dataset loading and preprocessing are handled inside `data.py`, while the base model is loaded in `model.py`.
+The dataset is automatically downloaded using the datasets library:
 
 
 
