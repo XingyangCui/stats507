@@ -12,10 +12,9 @@ compare standard cross-entropy with label-smoothed cross-entropy.
 The goal of this project is to evaluate how **loss-function design** affects
 street-view **semantic segmentation** performance::
 
-- **Base model**: nvidia/segformer-b0-finetuned-cityscapes
 - **Dataset**: Cityscapes (19 semantic classes)
-- **Method1e**: Standard cross-entropy loss
-- **Method2e**: Label-smoothed cross-entropy (ε = 0.05/0.1)
+- **Base model**: nvidia/segformer-b0-finetuned-cityscapes
+- **New model**: Label-smoothed cross-entropy (ε = 0.05/0.1)
 - **Task**: Generate captions that correctly mention the specific pet breed in the image
 
 
