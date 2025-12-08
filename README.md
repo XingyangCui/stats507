@@ -57,6 +57,9 @@ Cityscapes (19-class semantic segmentation), hosted on Hugging Face:
 👉 https://huggingface.co/datasets/tanganke/cityscapes
 
 Covers 19 semantic classes(road, sidewalk, building, vegetation, car, bus, pedestrian, etc.)
+## Example Visualization
+![Cityscapes sample](Figure.png)
+
 
 The dataset is automatically downloaded using the datasets library:
 ```bash
