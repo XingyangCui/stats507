@@ -32,8 +32,8 @@ street-view **semantic segmentation** performance::
 ## 3. Installation
 - Clone the repository:
   ```bash
-  git clone https://github.com/<your-username>/<repo>.git
-  cd <repo>
+  git clone https://github.com/XingyangCui/stats507.git
+  cd stats507
   ```
 
 - Install Dependencies：
