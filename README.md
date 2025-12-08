@@ -1,4 +1,4 @@
-# Stats507-coursework
+# Stats507-coursework(Xingyang Cui)
 Data Science and Analytics using Python
 
 # Cityscapes-Segmentation: SegFormer-B0 + Label Smoothing
