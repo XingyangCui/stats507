@@ -44,9 +44,6 @@ street-view **semantic segmentation** performance::
   * `scikit-learn`, `tqdm`
 
 ## 4. Data & Model
-
-4. Data & Model
-
 No manual download is required.
 All data and pretrained weights are automatically fetched from Hugging Face.
 
