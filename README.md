@@ -25,6 +25,7 @@ street-view **semantic segmentation** performance::
 ├── README.md
 └── Final_Project.ipynb    # All code: data loading, training, evaluation
 └── Requirement.txt        # All of thr Python dependencies
+└── Final Report(Xingyang Cui).pdf  # Final Report
 
 ```
 
